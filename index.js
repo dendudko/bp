@@ -62,7 +62,7 @@ function fill(index){
         cells[index].style.backgroundColor = 'white';
         countOfFilled--;
     }
-    if (countOfFilled==16){
+    if (countOfFilled==16 || countOfFilled==0){
         document.getElementById('count').innerHTML="YOU SUCCEEDED IN " + score + " MOVES!";
     }
 }
